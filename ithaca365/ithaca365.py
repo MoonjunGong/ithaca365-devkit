@@ -61,7 +61,7 @@ class Ithaca365(object):
         self.verbose = verbose
         self.table_names = ['category', 'attribute', 'visibility', 'instance', 'sensor', 'calibrated_sensor',
                             'ego_pose', 'log', 'scene', 'sample', 'sample_data', 'sample_annotation', 'map',
-                            'location', 'weather', 'object_ann']
+                            'location', 'object_ann']
 
         assert osp.isdir(self.table_root), 'Database version not found: {}'.format(self.table_root)
 
